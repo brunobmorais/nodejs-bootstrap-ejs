@@ -4,7 +4,7 @@
   "description": "Node.js Restful CRUD API with Node.js, Express and MySQL",
   "main": "app.js",
   "scripts": {
-    "prod": "set NODE_ENV=prod && node app.js",
+    "start": "set NODE_ENV=prod && node app.js",
     "dev": "set NODE_ENV=dev && nodemon app.js"
   },
   "keywords": [

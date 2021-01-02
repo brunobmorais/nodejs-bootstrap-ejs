@@ -17,5 +17,5 @@ Make a copy of the .env.dev file with the name .env.prod to run in production
 npm run dev
 
 // Production
-npm run prod
+npm run start
 ```
