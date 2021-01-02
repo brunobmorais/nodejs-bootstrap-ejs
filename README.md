@@ -10,7 +10,7 @@ npm install
 ```
 
 ## Configuration
-Make a copy of the .env.dev file with the name .env.prod to run in production
+Make a copy of the .env.dev file with the name .env to run in production
 
 ### Run
 ```
