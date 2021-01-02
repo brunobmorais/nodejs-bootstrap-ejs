@@ -12,6 +12,7 @@ app.set('views', path.join(__dirname, 'app/views'));
 app.set('view engine', 'ejs');
 
 app.use('/aplication', express.static(path.join(__dirname, '/')));
+app.use('/mdi', express.static(path.join(__dirname, 'node_modules/@mdi/')));
 app.use('/bootstrap', express.static(path.join(__dirname, 'node_modules/bootstrap/dist')));
 app.use('/jquery', express.static(path.join(__dirname, 'node_modules/jquery/dist/')));
 app.use('/popper', express.static(path.join(__dirname, 'node_modules/popper.js/dist/')));
