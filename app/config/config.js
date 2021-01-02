@@ -1,7 +1,9 @@
 const path = require('path');
-require('dotenv').config({
-    path: path.resolve(__dirname,  '.env.'+process.env.NODE_ENV)
-});
+require('dotenv').config();
+
+console.log("NODE_ENV: "+process.env.NODE_ENV);
+console.log("PORT: "+process.env.PORT);
+
 
 let CONFIG = {} //Make this global to use all over the application
 

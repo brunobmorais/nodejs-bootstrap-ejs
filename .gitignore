@@ -1,6 +1,6 @@
 node_modules
 package-lock.json
-.env.prod
+.env
 
 .idea
 .vscode
